@@ -1,6 +1,17 @@
 ### 1. ssgo
-### 2. 中文介绍
 ssgo是一个基于SSH协议开发的小工具，面向系统管理员，主要用于在远程主机上执行命令、脚本或传输文件
+### 2. 安装
+#### 2.1. 获取源码
+``` bash
+go get github.com/JeffreySE/ssgo
+```
+#### 2.2. 打包下载最新版本
+
+* **For Windows x64**:   
+    [ssgo.1.0.2.zip](https://github.com/JeffreySE/ssgo/files/1955413/ssgo.1.0.2.zip)
+* **For Linux x64**:   
+    [ssgo.1.0.2.tar.gz](https://github.com/JeffreySE/ssgo/files/1955414/ssgo.1.0.2.tar.gz)   
+
 ### 3. 小特性
 * 默认并发执行
 * 支持单条、多条命令、脚本执行（直接在远程主机执行本地脚本，可以接受脚本参数）
